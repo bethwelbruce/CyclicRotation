@@ -1,4 +1,4 @@
-# CyclicRotation
+# CyclicRotation in java
 public class CyclicRotation {
 	public int[] solution(int[] A,int K) {
 		
