@@ -28,7 +28,7 @@ package CodelityTest;
 public class CyclicRotation {
 	public int[] solution(int[] A,int K) {
 		
-		if(A.length == 0) {
+		if(A.length == 0 || A.length == K) {
 			return A;
 		}
 		for(int i=0;i<K;i++) {
